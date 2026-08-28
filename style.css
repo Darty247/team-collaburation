@@ -1,0 +1,116 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #F8FAFC;
+      
+    }
+
+    
+    .converter-container{
+      background-color: #ffffff;
+      padding: 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      width: 100%;
+      max-width: 400px;
+    
+    }
+
+     h2 {
+      color: #1b2559;
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .input-group, select-box {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1.2rem;
+    }
+
+    label {
+      color: #94A3B8;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.4rem;
+    }
+
+    input, select {
+    
+      padding:0.75rem;
+      background-color: #f8fafc;
+      border: 1px solid #e0e5f2;
+      border-radius: 8px;
+      
+      font-size: 1rem;
+      outline: none;
+     
+    }
+
+    input:focus, select:focus {
+      border-color: #4318ff;
+    }
+
+    #dropdown-group{
+      align-self: center;
+      display: flex;
+    align-items: center;
+    }
+
+    #dropdown-group .select-box{
+flex: 1;
+    }
+ #swap-btn {
+      background: lightblue;
+      border: 1px solid #e0e5f2;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      width: 40px;
+            height: 40px;
+      cursor: pointer;
+      margin-top: 0.5rem;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+ }
+    #convertBtn {
+      width: 100%;
+      padding: 0.85rem;
+      background-color: #4318ff;
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 8px;
+      transition: background-color 0.2s ease;
+    }
+.result-box{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+    
+    #resultText {
+      color: #1b2559;
+      font-size: 1.25rem;
+      font-weight: 700;
+    
+    }
+    #rate-info{
+        color: #a3b1c8;
+        font-size: 0.8rem;
+        display: block;
+        margin-top: 0.25rem;
+    }
